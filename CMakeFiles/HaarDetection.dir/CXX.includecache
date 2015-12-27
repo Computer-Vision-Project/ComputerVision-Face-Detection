@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/os/Desktop/Face-Detection/HaarDetection.cpp
+iostream
+-
+vector
+-
+math.h
+-
+Image.h
+/home/os/Desktop/Face-Detection/Image.h
+
+/home/os/Desktop/Face-Detection/Image.h
+
