@@ -88,6 +88,41 @@ clean: CMakeFiles/FaceDetection.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/HaarDetection.dir
+
+# All Build rule for target.
+CMakeFiles/HaarDetection.dir/all:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/depend
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/os/Desktop/Face-Detection/CMakeFiles  2 3 4
+	@echo "Built target HaarDetection"
+.PHONY : CMakeFiles/HaarDetection.dir/all
+
+# Include target in all.
+all: CMakeFiles/HaarDetection.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HaarDetection.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/os/Desktop/Face-Detection/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HaarDetection.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/os/Desktop/Face-Detection/CMakeFiles 0
+.PHONY : CMakeFiles/HaarDetection.dir/rule
+
+# Convenience name for target.
+HaarDetection: CMakeFiles/HaarDetection.dir/rule
+.PHONY : HaarDetection
+
+# clean rule for target.
+CMakeFiles/HaarDetection.dir/clean:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/clean
+.PHONY : CMakeFiles/HaarDetection.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/HaarDetection.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -72,50 +72,65 @@ CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o.provides: CMakeFiles/HaarDetect
 
 CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o.provides.build: CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o
 
+CMakeFiles/HaarDetection.dir/Image.cpp.o: CMakeFiles/HaarDetection.dir/flags.make
+CMakeFiles/HaarDetection.dir/Image.cpp.o: Image.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/os/Desktop/Face-Detection/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HaarDetection.dir/Image.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/HaarDetection.dir/Image.cpp.o -c /home/os/Desktop/Face-Detection/Image.cpp
+
+CMakeFiles/HaarDetection.dir/Image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HaarDetection.dir/Image.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/os/Desktop/Face-Detection/Image.cpp > CMakeFiles/HaarDetection.dir/Image.cpp.i
+
+CMakeFiles/HaarDetection.dir/Image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HaarDetection.dir/Image.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/os/Desktop/Face-Detection/Image.cpp -o CMakeFiles/HaarDetection.dir/Image.cpp.s
+
+CMakeFiles/HaarDetection.dir/Image.cpp.o.requires:
+.PHONY : CMakeFiles/HaarDetection.dir/Image.cpp.o.requires
+
+CMakeFiles/HaarDetection.dir/Image.cpp.o.provides: CMakeFiles/HaarDetection.dir/Image.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Image.cpp.o.provides.build
+.PHONY : CMakeFiles/HaarDetection.dir/Image.cpp.o.provides
+
+CMakeFiles/HaarDetection.dir/Image.cpp.o.provides.build: CMakeFiles/HaarDetection.dir/Image.cpp.o
+
+CMakeFiles/HaarDetection.dir/Pgm.cpp.o: CMakeFiles/HaarDetection.dir/flags.make
+CMakeFiles/HaarDetection.dir/Pgm.cpp.o: Pgm.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/os/Desktop/Face-Detection/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HaarDetection.dir/Pgm.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/HaarDetection.dir/Pgm.cpp.o -c /home/os/Desktop/Face-Detection/Pgm.cpp
+
+CMakeFiles/HaarDetection.dir/Pgm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HaarDetection.dir/Pgm.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/os/Desktop/Face-Detection/Pgm.cpp > CMakeFiles/HaarDetection.dir/Pgm.cpp.i
+
+CMakeFiles/HaarDetection.dir/Pgm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HaarDetection.dir/Pgm.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/os/Desktop/Face-Detection/Pgm.cpp -o CMakeFiles/HaarDetection.dir/Pgm.cpp.s
+
+CMakeFiles/HaarDetection.dir/Pgm.cpp.o.requires:
+.PHONY : CMakeFiles/HaarDetection.dir/Pgm.cpp.o.requires
+
+CMakeFiles/HaarDetection.dir/Pgm.cpp.o.provides: CMakeFiles/HaarDetection.dir/Pgm.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Pgm.cpp.o.provides.build
+.PHONY : CMakeFiles/HaarDetection.dir/Pgm.cpp.o.provides
+
+CMakeFiles/HaarDetection.dir/Pgm.cpp.o.provides.build: CMakeFiles/HaarDetection.dir/Pgm.cpp.o
+
 # Object files for target HaarDetection
 HaarDetection_OBJECTS = \
-"CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o"
+"CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o" \
+"CMakeFiles/HaarDetection.dir/Image.cpp.o" \
+"CMakeFiles/HaarDetection.dir/Pgm.cpp.o"
 
 # External object files for target HaarDetection
 HaarDetection_EXTERNAL_OBJECTS =
 
 HaarDetection: CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o
+HaarDetection: CMakeFiles/HaarDetection.dir/Image.cpp.o
+HaarDetection: CMakeFiles/HaarDetection.dir/Pgm.cpp.o
 HaarDetection: CMakeFiles/HaarDetection.dir/build.make
-HaarDetection: /usr/local/lib/libopencv_viz.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_videostab.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_videoio.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_video.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_superres.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_stitching.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_shape.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_photo.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_objdetect.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_ml.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_imgproc.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_highgui.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_hal.a
-HaarDetection: /usr/local/lib/libopencv_flann.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_features2d.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_core.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_calib3d.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_features2d.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_ml.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_highgui.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_videoio.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_flann.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_video.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_imgproc.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_core.so.3.0.0
-HaarDetection: /usr/local/lib/libopencv_hal.a
-HaarDetection: /usr/lib/x86_64-linux-gnu/libGLU.so
-HaarDetection: /usr/lib/x86_64-linux-gnu/libGL.so
-HaarDetection: /usr/lib/x86_64-linux-gnu/libSM.so
-HaarDetection: /usr/lib/x86_64-linux-gnu/libICE.so
-HaarDetection: /usr/lib/x86_64-linux-gnu/libX11.so
-HaarDetection: /usr/lib/x86_64-linux-gnu/libXext.so
-HaarDetection: /usr/local/share/OpenCV/3rdparty/lib/libippicv.a
 HaarDetection: CMakeFiles/HaarDetection.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable HaarDetection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HaarDetection.dir/link.txt --verbose=$(VERBOSE)
@@ -125,6 +140,8 @@ CMakeFiles/HaarDetection.dir/build: HaarDetection
 .PHONY : CMakeFiles/HaarDetection.dir/build
 
 CMakeFiles/HaarDetection.dir/requires: CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o.requires
+CMakeFiles/HaarDetection.dir/requires: CMakeFiles/HaarDetection.dir/Image.cpp.o.requires
+CMakeFiles/HaarDetection.dir/requires: CMakeFiles/HaarDetection.dir/Pgm.cpp.o.requires
 .PHONY : CMakeFiles/HaarDetection.dir/requires
 
 CMakeFiles/HaarDetection.dir/clean:

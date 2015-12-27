@@ -5,6 +5,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/os/Desktop/Face-Detection/HaarDetection.cpp" "/home/os/Desktop/Face-Detection/CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o"
+  "/home/os/Desktop/Face-Detection/Image.cpp" "/home/os/Desktop/Face-Detection/CMakeFiles/HaarDetection.dir/Image.cpp.o"
+  "/home/os/Desktop/Face-Detection/Pgm.cpp" "/home/os/Desktop/Face-Detection/CMakeFiles/HaarDetection.dir/Pgm.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

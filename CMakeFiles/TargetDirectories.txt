@@ -1,1 +1,2 @@
 /home/os/Desktop/Face-Detection/CMakeFiles/FaceDetection.dir
+/home/os/Desktop/Face-Detection/CMakeFiles/HaarDetection.dir

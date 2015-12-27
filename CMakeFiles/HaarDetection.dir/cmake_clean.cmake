@@ -1,5 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o"
+  "CMakeFiles/HaarDetection.dir/Image.cpp.o"
+  "CMakeFiles/HaarDetection.dir/Pgm.cpp.o"
   "HaarDetection.pdb"
   "HaarDetection"
 )
