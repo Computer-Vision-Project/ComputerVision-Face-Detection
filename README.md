@@ -8,7 +8,7 @@ TO COMPILE:
 
 Type the following in order:
 
-cmake . ( DOT included, Make sure CMake is installed on your system )
+cmake . ( DOT included, Make sure CMake is installed on your system ) \n
 make
 
 FaceDetection then takes 1 Parameter, an image.
