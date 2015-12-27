@@ -38,7 +38,7 @@ int main( int argc, const char** argv ){
 		std::cout << "Error loading image\n"; 
 		return -1; 
 	}
-	else std::cout << "Image successfully loaded.\n";
+	else std::cout << "Image saved. Check this directory.\n";
 	
 	if( !frame.empty() ) detect( frame, face_cascade );
 	
