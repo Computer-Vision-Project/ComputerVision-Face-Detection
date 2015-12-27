@@ -8,8 +8,8 @@ TO COMPILE:
 
 Type the following in order:
 
-cmake . ( DOT included, Make sure CMake is installed on your system )
-make
+1. cmake . ( DOT included, Make sure CMake is installed on your system )
+2. make
 
 FaceDetection then takes 1 Parameter, an image.
 HaarDetection also takes 1 Parameter, an image.
