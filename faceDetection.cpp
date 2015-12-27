@@ -1,6 +1,8 @@
 /*
 	Face Detection
 	
+	Parameter 1: Image
+	
 	This program uses a trained cascade classifier to detect faces
 	in an image, and then outlines the faces in rectangles. 
 	

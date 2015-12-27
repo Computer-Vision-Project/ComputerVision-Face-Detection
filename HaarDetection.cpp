@@ -1,6 +1,8 @@
 /*
 	Haar Feature Detection
 	
+	Parameter 1: Image
+	
 	This program detects uses Haar features to detect possible features
 	of a face. It collects data in a 24 x 24 window, and processes it
 	using Integral Imaging to efficiently calculate the integral. 
@@ -32,9 +34,8 @@ int main ( int argc, char** argv ){
 	Image *im = new Image();
 	readImage( im, IMAGE );
 
-	//calculateFirstWindow( *im ); // Calculate first window Haar features.
-
-	calculateAllWindows( *im );
+	calculateFirstWindow( *im );
+	//calculateAllWindows( *im );
 
 	return 0;
 }
