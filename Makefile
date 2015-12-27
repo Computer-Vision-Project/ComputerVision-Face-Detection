@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/os/Desktop/Face-Detection
+CMAKE_SOURCE_DIR = /home/os/Desktop/Face-Detection-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/os/Desktop/Face-Detection
+CMAKE_BINARY_DIR = /home/os/Desktop/Face-Detection-master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/os/Desktop/Face-Detection/CMakeFiles /home/os/Desktop/Face-Detection/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/os/Desktop/Face-Detection-master/CMakeFiles /home/os/Desktop/Face-Detection-master/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/os/Desktop/Face-Detection/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/os/Desktop/Face-Detection-master/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ FaceDetection/fast:
 	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/build
 .PHONY : FaceDetection/fast
 
+#=============================================================================
+# Target rules for targets named HaarDetection
+
+# Build rule for target.
+HaarDetection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HaarDetection
+.PHONY : HaarDetection
+
+# fast build rule for target.
+HaarDetection/fast:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/build
+.PHONY : HaarDetection/fast
+
 FaceDetection.o: FaceDetection.cpp.o
 .PHONY : FaceDetection.o
 
@@ -135,6 +148,78 @@ FaceDetection.cpp.s:
 	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/FaceDetection.cpp.s
 .PHONY : FaceDetection.cpp.s
 
+HaarDetection.o: HaarDetection.cpp.o
+.PHONY : HaarDetection.o
+
+# target to build an object file
+HaarDetection.cpp.o:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/HaarDetection.cpp.o
+.PHONY : HaarDetection.cpp.o
+
+HaarDetection.i: HaarDetection.cpp.i
+.PHONY : HaarDetection.i
+
+# target to preprocess a source file
+HaarDetection.cpp.i:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/HaarDetection.cpp.i
+.PHONY : HaarDetection.cpp.i
+
+HaarDetection.s: HaarDetection.cpp.s
+.PHONY : HaarDetection.s
+
+# target to generate assembly for a file
+HaarDetection.cpp.s:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/HaarDetection.cpp.s
+.PHONY : HaarDetection.cpp.s
+
+Image.o: Image.cpp.o
+.PHONY : Image.o
+
+# target to build an object file
+Image.cpp.o:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Image.cpp.o
+.PHONY : Image.cpp.o
+
+Image.i: Image.cpp.i
+.PHONY : Image.i
+
+# target to preprocess a source file
+Image.cpp.i:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Image.cpp.i
+.PHONY : Image.cpp.i
+
+Image.s: Image.cpp.s
+.PHONY : Image.s
+
+# target to generate assembly for a file
+Image.cpp.s:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Image.cpp.s
+.PHONY : Image.cpp.s
+
+Pgm.o: Pgm.cpp.o
+.PHONY : Pgm.o
+
+# target to build an object file
+Pgm.cpp.o:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Pgm.cpp.o
+.PHONY : Pgm.cpp.o
+
+Pgm.i: Pgm.cpp.i
+.PHONY : Pgm.i
+
+# target to preprocess a source file
+Pgm.cpp.i:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Pgm.cpp.i
+.PHONY : Pgm.cpp.i
+
+Pgm.s: Pgm.cpp.s
+.PHONY : Pgm.s
+
+# target to generate assembly for a file
+Pgm.cpp.s:
+	$(MAKE) -f CMakeFiles/HaarDetection.dir/build.make CMakeFiles/HaarDetection.dir/Pgm.cpp.s
+.PHONY : Pgm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -142,11 +227,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... FaceDetection"
+	@echo "... HaarDetection"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FaceDetection.o"
 	@echo "... FaceDetection.i"
 	@echo "... FaceDetection.s"
+	@echo "... HaarDetection.o"
+	@echo "... HaarDetection.i"
+	@echo "... HaarDetection.s"
+	@echo "... Image.o"
+	@echo "... Image.i"
+	@echo "... Image.s"
+	@echo "... Pgm.o"
+	@echo "... Pgm.i"
+	@echo "... Pgm.s"
 .PHONY : help
 
 
